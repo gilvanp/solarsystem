@@ -1,0 +1,261 @@
+* {
+    margin: 0 auto;;
+    text-align: left;
+    font-family: arial, sans-serif, comic sans;
+    padding: 0
+}
+
+/* Background do Site       */
+body {
+    background-image: url(../imagens/background.jpg);
+    background-repeat: repeat;
+}
+
+
+/*               Titulo do Site         */
+header {
+    width: 1000px;
+    height: auto;
+}
+
+/* Texto */
+header h1 {
+    color: gold;
+    font-size: 90px;
+    text-align: left;
+    text-shadow: -3px -1px goldenrod;
+    padding-top: 30px
+}
+
+
+
+/*               Menu do Site            */
+.menu {
+    display: block;
+    float: center;
+    clear: both;
+    width: 1000px;
+    height: auto;
+}
+
+.menu ul {
+    padding: 20px;
+    list-style: none;
+    width: auto;
+}
+
+.menu li {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    float: right;
+    background-color: gold;
+    box-shadow: 2px -2px goldenrod;
+    border-radius: 10px;
+    position: relative
+}
+
+/* DropDown Menu */
+.menu li ul{
+    text-decoration: none;
+    position: absolute;
+    top: auto;
+    left: 0;
+    display: none
+}
+
+.menu li:hover ul, .menu li.over ul {
+    display: block
+}
+
+.menu li ul li{
+    display: block
+}
+
+/* Texto do Menu */
+.menu li a, #menu li a:visited {
+    float: left;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Efeito Mouse em cima e pagina selecionada */
+.menu li a:hover {
+    background-color: black;
+    color: gold;
+    border-radius: 10px;
+}
+
+
+/* Rodapé */
+footer {
+    width: 960px;
+    background-color: black;
+    border: solid;
+    border-color: gold;
+    color: white;
+    margin-top: 50px;
+    padding: 10px
+}
+
+footer li {
+    width: 1000px;
+    text-align: left;
+    font-size: 14px;
+    list-style: none
+}
+
+/* Conteúdo do Site página  */
+#conteudo {
+    width: 1000px;
+    height: auto;
+    border:solid ;
+    border-color: gold;
+    color: white;
+    background-color: black;
+    background-opacity
+}
+
+/* Texto do Conteúdo */
+#conteudo p, #conteudo h2 {
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+/*-----------------INDEX-----------------*/
+
+
+/* Imagem do Conteúdo Index */
+.indeximg {
+    width: 960px;
+}
+
+
+/*     ------------ ORIGEM ---------------- */
+
+.origemimg {
+    width: 750px;
+    float: right;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fumaca {
+    margin: 10px;
+    padding-left: 40px;
+}
+
+#origem {
+    text-align: center;
+}
+
+
+
+/* --------- Planetas SS ------------- */
+
+.planimg {
+    width: 900px;
+    padding: 20px 0 20px 50px;
+}
+
+
+
+/* ------------ Movimento Planetas -------- */
+
+h3,h4 {
+    padding: 10px 0 5px 20px;
+}
+
+
+
+.rotimg {
+    float: left;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.transimg {
+    float: right;
+    border-radius: 10px;
+}
+
+
+/* --------- ASTROS ----------*/
+
+.sol {
+    border-radius: 25px;
+    float: right;
+    padding: 0 15px 5px ;
+    width: 400px
+}
+
+.aster {
+    float: left;
+    width: 480px;
+    padding: 10px
+}
+
+.lua {
+    padding-left: 280px;
+    width: 350px
+}
+
+.mercurio {
+    padding-left: 290px;
+    width: 300px
+}
+
+.venus {
+    float: right
+}
+
+.terra {
+    width: 500px;
+    padding-left: 250px
+}
+
+.marte {
+    float: left;
+    padding: 20px
+}
+
+.jupiter {
+    padding-left: 300px;
+    width: 300px
+}
+
+.saturno {
+    float: left;
+    padding: 0 20px;
+}
+
+.urano {
+    padding-left: 300px
+}
+
+.netuno {
+    float: right;
+    padding: 0 20px 0;
+}
+
+.plutao {
+    padding: 0 0 10px 200px
+}
+
+/* ---------------- SOBRE ------------*/
+.senac {
+    display: block;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+/* Vídeo */
+.yt {
+    padding:30px 0 20px 75px
+}
